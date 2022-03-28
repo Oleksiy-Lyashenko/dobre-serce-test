@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Geometia';
+  src: url('./fonts/Geometria.eot');
+  src:
+    url('./fonts/Geometria.woff') format('woff'),
+    url('./fonts/Geometria.woff2') format('woff2'),
+    url('./fonts/Geometria.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometia';
+  src: url('./fonts/Geometria-Light.eot');
+  src:
+    url('./fonts/Geometria-Light.woff') format('woff'),
+    url('./fonts/Geometria-Light.woff2') format('woff2'),
+    url('./fonts/Geometria-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometia';
+  src: url('./fonts/Geometria-ExtraBold.eot');
+  src:
+    url('./fonts/Geometria-ExtraBold.woff') format('woff'),
+    url('./fonts/Geometria-ExtraBold.woff2') format('woff2'),
+    url('./fonts/Geometria-ExtraBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometia';
+  src: url('./fonts/Geometria-Bold.eot');
+  src:
+    url('./fonts/Geometria-Bold.woff') format('woff'),
+    url('./fonts/Geometria-Bold.woff2') format('woff2'),
+    url('./fonts/Geometria-Bold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-ExtraBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}

@@ -1,0 +1,89 @@
+@import '../variables';
+
+svg {
+  fill: $grey;
+  width: 40px;
+}
+
+.icon-block {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    .icon-block__style {
+      background-color: $gray;
+      border: 2px solid $gray;
+    }
+
+    svg {
+      fill: $white;
+    }
+
+    .icon-block__text {
+      color: $black;
+    }
+  }
+
+  &__style {
+    padding: 15px;
+    margin-right: 15px;
+
+    border: 2px solid $grey;
+    border-radius: 15px;
+  }
+
+  &__text {
+    display: block;
+    width: min-content;
+    color: $grey;
+    font-weight: 700;
+  }
+
+  &--active {
+    .icon-block__style {
+      background-color: $gray;
+      border: 2px solid $gray;
+    }
+
+    svg {
+      fill: $white;
+    }
+
+    .icon-block__text {
+      color: $black;
+    }
+  }
+}
+
+.pay-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  padding: 10px;
+
+  border-radius: 10px;
+  background-color: $grey;
+  color: $white;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: $gray;
+  }
+
+  svg {
+    fill: white;
+  }
+
+  span {
+    font-size: 11px;
+  }
+
+  p {
+    padding-top: 10px;
+    font-weight: 700;
+  }
+}
