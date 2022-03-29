@@ -23,10 +23,10 @@ const Pay = () => {
             <span className="pay__subtitle">Номер карти</span>
 
             <div className="pay__number__block">
-              <input type="text" className="pay__input" />
-              <input type="text" className="pay__input" />
-              <input type="text" className="pay__input" />
-              <input type="text" className="pay__input" />
+              <input type="text" className="pay__input" maxLength={4} />
+              <input type="text" className="pay__input" maxLength={4} />
+              <input type="text" className="pay__input" maxLength={4} />
+              <input type="text" className="pay__input" maxLength={4} />
             </div>
           </div>
 
@@ -34,13 +34,18 @@ const Pay = () => {
             <div className="pay__sec-number__block">
               <span className="pay__subtitle">Термін дії</span>
 
-              <input type="text" className="pay__input pay__input--sec-number" />
+              <input
+                type="text"
+                className="pay__input pay__input--sec-number"
+                pattern="\d{2}/\d{2}"
+                maxLength={5}
+              />
             </div>
 
             <div className="pay__sec-number__block">
               <span className="pay__subtitle">CVC/CVV</span>
 
-              <input type="text" className="pay__input pay__input--sec-number" />
+              <input type="text" className="pay__input pay__input--sec-number" maxLength={3} />
             </div>
           </div>
         </div>

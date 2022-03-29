@@ -1,5 +1,5 @@
 export { default as Button} from './Button';
-export { default as ChangeViewFrom} from './ChangeViewFrom';
+export { default as ChangeViewFrom} from './ChangeViewForm';
 export { default as Input} from './Input';
 export { default as MainForm } from './MainForm';
 export { default as PageSubtitle } from './PageSubtitle';
