@@ -1,0 +1,32 @@
+.handle {
+  display: flex;
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  text-align: center;
+
+  border: 2px solid $blackGray;
+  border-radius: 5px;
+
+  &__text {
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 14px;
+
+    cursor: pointer;
+
+    &:hover {
+      background-color: $grey;
+    }
+
+    &--active {
+      background-color: $blackGray;
+      color: $white;
+
+      &:hover {
+        background-color: $blackGray;
+      }
+    }
+  }
+}

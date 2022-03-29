@@ -1,0 +1,20 @@
+.button {
+  padding: 10px 0;
+  max-width: 250px;
+  margin: 0 auto;
+
+  text-align: center;
+  cursor: pointer;
+
+  border-radius: 5px;
+  background: linear-gradient(to right, $red, $gray);
+  box-shadow: 0 0 10px 0 $red;
+
+  color: $white;
+  font-weight: 700;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+}

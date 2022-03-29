@@ -1,0 +1,21 @@
+.block-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20%;
+
+  @media (max-width: 767px) {
+    column-gap: 20px;
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.block {
+  &__double {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px
+  }
+}
